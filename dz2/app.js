@@ -59,7 +59,7 @@ function orginizeNumbersV1(number) {
     // залишок від поділу на 10 записуємо у масив
     // це остання цифра number
     output.push(number % 10);
-    // number ділимо на 10 та в меншу сторону
+    // number ділимо на 10 та округлюємо в меншу сторону
     // тобто відрізаємо останнє число
     number = Math.floor(number/10);
   }
